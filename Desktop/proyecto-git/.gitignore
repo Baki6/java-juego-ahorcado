@@ -27,3 +27,8 @@ ssh/
 *.ipynb
 *.pdf
 *.docx
+
+git ls-files --others -z | xargs -0 git rm --cached
+echo "*" >> .gitignore
+git add .gitignore
+git commit -m "Ignore all untracked files"
