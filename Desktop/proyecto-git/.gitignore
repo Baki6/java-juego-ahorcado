@@ -1,0 +1,29 @@
+# Ignora directorios del sistema operativo
+AppData/
+Configuración local/
+Cookies/
+Datos de programa/
+Entorno de red/
+Impresoras/
+Menú Inicio/
+Mis documentos/
+Plantillas/
+Reciente/
+SendTo/
+
+# Ignora archivos de configuración de aplicaciones
+*.log
+*.tmp
+*.ini
+
+# Ignora directorios de proyecto no relacionados
+eclipse-workspace/
+eclipse/
+node/
+ssh/
+
+# Ignora otros archivos y directorios no relacionados
+*.sql
+*.ipynb
+*.pdf
+*.docx
